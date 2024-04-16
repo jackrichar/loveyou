@@ -10,14 +10,14 @@ const Content = () =>{
     const [Block,setBlock] = useState('');
     return(
         <div className={"Content"}>
-            <div className={"Button"} style={{display:`${None}`}}>
+            <div className={"Button"}>
                 <div onClick={Animation} style={Check === true ? translateX_right() : translateX_left()} className={"Button-Row"}>
                     <div className={"Button-Text"}>
                         <h4>&#128151;کلیک کن</h4>
                     </div>
                 </div>
             </div>
-            <div className={"Text"} style={{display:`${Block}`}}>
+            <div className={"Text"}>
                 <p className={"Paragraph"}>
                     هر وقت خستم بهم انرژی میدی
                     هر وقت دلم گرفته با گفتن کلمه دوست دارم بهم روحیه میدی که نباید تسلیم بشم
