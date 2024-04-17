@@ -1,390 +1,149 @@
-@media only screen and (max-width: 1366px){
-    .Content{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button{
-        width: 30%;
-        height: 30%;
-        background-color: #252424;
-        border-radius: 100px;
-        opacity: 99%;
-        box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
-        overflow: hidden;
-    }
-    .Button-Row{
-        width: 46%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #a79e9e;
-        transition: all 150ms ease-in-out ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button-Row:hover{
-        background-color: #bdbbbb;
-    }
-
-    .Button-Text{
-        width: 70%;
-        height: 70%;
-        border-radius: 95px;
-        background-color: #868383;
-        box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Vazir, sans-serif;
-    }
-    .Button-Text > h4{
-        user-select: none;
-        -webkit-user-select: none;
-    }
-
-    @keyframes ShowBackground {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-    @keyframes ShowText {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-
-    .Text{
-        display: none;
-        width: 30%;
-        height: 75%;
-        background-color: rgb(121 119 119 / 63%);
-        border-radius: 10px;
-        box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
-        animation: ShowBackground ease-in-out 500ms;
-        z-index: 1;
-    }
-
-    .Paragraph{
-        opacity: 0;
-        direction: rtl;
-        padding: 15px;
-        font-family: Vazir, sans-serif;
-        text-align: justify;
-        animation: ShowText 2s ease-in-out 500ms forwards;
-        filter: drop-shadow(0px 6px 2px black);
-    }
-
+.Content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media only screen and (max-width: 1326px){
-    .Content{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button{
-        width: 27%;
-        height: 30%;
-        background-color: #252424;
-        border-radius: 100px;
-        opacity: 99%;
-        box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
-        overflow: hidden;
-    }
-    .Button-Row{
-        width: 46%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #a79e9e;
-        transition: all 150ms ease-in-out ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button-Row:hover{
-        background-color: #bdbbbb;
-    }
-
-    .Button-Text{
-        width: 70%;
-        height: 70%;
-        border-radius: 95px;
-        background-color: #868383;
-        box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Vazir, sans-serif;
-    }
-    .Button-Text > h4{
-        user-select: none;
-        -webkit-user-select: none;
-    }
-
-    @keyframes ShowBackground {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-    @keyframes ShowText {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-
-    .Text{
-        display: none;
-        width: 30%;
-        height: 75%;
-        background-color: rgb(121 119 119 / 63%);
-        border-radius: 10px;
-        box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
-        animation: ShowBackground ease-in-out 500ms;
-        z-index: 1;
-    }
-
-    .Paragraph{
-        opacity: 0;
-        direction: rtl;
-        padding: 15px;
-        font-family: Vazir, sans-serif;
-        text-align: justify;
-        animation: ShowText 2s ease-in-out 500ms forwards;
-        filter: drop-shadow(0px 6px 2px black);
-    }
-
+.Button{
+    width: 41rem;
+    height: 19em;
+    background-color: #252424;
+    border-radius: 100px;
+    opacity: 99%;
+    box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
+    overflow: hidden;
 }
-@media only screen and (max-width: 1134px){
-    .Content{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button{
-        width: 32%;
-        height: 30%;
-        background-color: #252424;
-        border-radius: 100px;
-        opacity: 99%;
-        box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
-        overflow: hidden;
-    }
-    .Button-Row{
-        width: 46%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #a79e9e;
-        transition: all 150ms ease-in-out ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button-Row:hover{
-        background-color: #bdbbbb;
-    }
-
-    .Button-Text{
-        width: 70%;
-        height: 70%;
-        border-radius: 95px;
-        background-color: #868383;
-        box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Vazir, sans-serif;
-    }
-    .Button-Text > h4{
-        user-select: none;
-        -webkit-user-select: none;
-    }
-
-    @keyframes ShowBackground {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-    @keyframes ShowText {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-
-    .Text{
-        display: none;
-        width: 30%;
-        height: 75%;
-        background-color: rgb(121 119 119 / 63%);
-        border-radius: 10px;
-        box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
-        animation: ShowBackground ease-in-out 500ms;
-        z-index: 1;
-    }
-
-    .Paragraph{
-        opacity: 0;
-        direction: rtl;
-        padding: 15px;
-        font-family: Vazir, sans-serif;
-        text-align: justify;
-        animation: ShowText 2s ease-in-out 500ms forwards;
-        filter: drop-shadow(0px 6px 2px black);
-    }
-
+.Button-Row{
+    width: 46%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #a79e9e;
+    transition: all 150ms ease-in-out ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-@media only screen and (max-width: 360px) {
-    .Content{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.Button-Row:hover{
+    background-color: #bdbbbb;
+}
+
+.Button-Text{
+    width: 70%;
+    height: 70%;
+    border-radius: 95px;
+    background-color: #868383;
+    box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Vazir, sans-serif;
+}
+.Button-Text > h4{
+    user-select: none;
+    -webkit-user-select: none;
+    font-size: 2em;
+}
+
+@keyframes ShowBackground {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+@keyframes ShowText {
+    0%{opacity: 0}
+    100%{opacity: 1}
+}
+
+.Text{
+    display: none;
+    width: 33rem;
+    height: 38em;
+    background-color: rgb(121 119 119 / 63%);
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
+    animation: ShowBackground ease-in-out 500ms;
+    z-index: 1;
+}
+
+.Paragraph{
+    opacity: 0;
+    direction: rtl;
+    padding: 15px;
+    font-family: Vazir, sans-serif;
+    text-align: justify;
+    animation: ShowText 2s ease-in-out 500ms forwards;
+    filter: drop-shadow(0px 6px 2px black);
+    font-size: 1.5em;
+}
+
+@media only screen and (max-width: 410px){
     .Button{
-        width: 95%;
-        height: 20%;
+        width: 33rem;
+        height: 15em;
         background-color: #252424;
         border-radius: 100px;
         opacity: 99%;
         box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
         overflow: hidden;
     }
-    .Button-Row{
-        width: 46%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #a79e9e;
-        transition: all 150ms ease-in-out ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .Button-Row:active{
-        background-color: #bdbbbb;
-    }
-
-    .Button-Text{
-        width: 70%;
-        height: 70%;
-        border-radius: 95px;
-        background-color: #868383;
-        box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Vazir, sans-serif;
-    }
     .Button-Text > h4{
         user-select: none;
         -webkit-user-select: none;
-    }
-
-    @keyframes ShowBackground {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-    @keyframes ShowText {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-
-    .Text{
-        display: none;
-        width: 80%;
-        height: 75%;
-        background-color: rgb(121 119 119 / 63%);
-        border-radius: 10px;
-        box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
-        animation: ShowBackground ease-in-out 500ms;
-        z-index: 1;
-    }
-
-    .Paragraph{
-        opacity: 0;
-        direction: rtl;
-        padding: 15px;
-        font-family: Vazir, sans-serif;
-        text-align: justify;
-        animation: ShowText 2s ease-in-out 500ms forwards;
-        filter: drop-shadow(0px 6px 2px black);
-        font-size: 16px;
+        font-size: 1.5em;
     }
 }
-@media only screen and (max-width: 320px) {
-    .Content{
-        width: 100%;
-        height: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+@media only screen and (max-width: 330px){
     .Button{
-        width: 95%;
-        height: 25%;
+        width: 25rem;
+        height: 12em;
         background-color: #252424;
         border-radius: 100px;
         opacity: 99%;
         box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
         overflow: hidden;
     }
-    .Button-Row{
-        width: 46%;
-        height: 100%;
-        border-radius: 50%;
-        background-color: #a79e9e;
-        transition: all 150ms ease-in-out ;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .Button-Text > h4{
+        user-select: none;
+        -webkit-user-select: none;
+        font-size: 1.3em;
     }
-    .Button-Row:active{
-        background-color: #bdbbbb;
+    .Text{
+        width: 22rem;
+        height: 40em;
     }
-
-    .Button-Text{
-        width: 70%;
-        height: 70%;
-        border-radius: 95px;
-        background-color: #868383;
-        box-shadow: 0 0 20px 7px black, inset 0 0 20px 1px black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Vazir, sans-serif;
+    .Paragraph{
+        font-size: 1.1em;
+    }
+}
+@media only screen and (max-width: 250px){
+    .Button{
+        width: 20rem;
+        height: 9em;
+        background-color: #252424;
+        border-radius: 100px;
+        opacity: 99%;
+        box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
+        overflow: hidden;
     }
     .Button-Text > h4{
         user-select: none;
         -webkit-user-select: none;
+        font-size: 1em;
     }
-
-    @keyframes ShowBackground {
-        0%{opacity: 0}
-        100%{opacity: 1}
+}
+@media only screen and (max-width: 202px){
+    .Button{
+        width: 15rem;
+        height: 7em;
+        background-color: #252424;
+        border-radius: 100px;
+        opacity: 99%;
+        box-shadow: inset 0 0 20px 12px black, 0 0 10px 0 black;
+        overflow: hidden;
     }
-    @keyframes ShowText {
-        0%{opacity: 0}
-        100%{opacity: 1}
-    }
-
-    .Text{
-        display: none;
-        width: 80%;
-        height: 75%;
-        background-color: rgb(121 119 119 / 63%);
-        border-radius: 10px;
-        box-shadow: 0 0 20px 0 black, inset 0 0 8px 0 black;
-        animation: ShowBackground ease-in-out 500ms;
-        z-index: 1;
-    }
-
-    .Paragraph{
-        opacity: 0;
-        direction: rtl;
-        padding: 15px;
-        font-family: Vazir, sans-serif;
-        text-align: justify;
-        animation: ShowText 2s ease-in-out 500ms forwards;
-        filter: drop-shadow(0px 6px 2px black);
-        font-size: 12px;
+    .Button-Text > h4{
+        user-select: none;
+        -webkit-user-select: none;
+        font-size: 0.8em;
     }
 }
